@@ -19,7 +19,7 @@ namespace Lab01_About_Me_Quiz
             //Logs question to and sets the users answer to the variable answerOne
             string answerOne;
             Console.WriteLine("Where was my first football game attended?");
-            answerOne = Console.ReadLine();
+            answerOne = Console.ReadLine().ToLower();
             //Conditional compare users answer to the correct answer and logs response to the user.
             if (answerOne == "california")
                 return $"{answerOne} is correct!";
@@ -32,7 +32,7 @@ namespace Lab01_About_Me_Quiz
             //Logs question to and sets the users answer to the variable answerTwo
             string answerTwo;
             Console.WriteLine("True or False, Do I like pasta?");
-            answerTwo = Console.ReadLine();
+            answerTwo = Console.ReadLine().ToLower();
             //Conditional statement compares user input to the correct answer and returns a boolean if it's correct.
             if (answerTwo == "false")
             {
@@ -72,7 +72,7 @@ namespace Lab01_About_Me_Quiz
             //Logs question to and sets the users answer to the variable answerFour
             string answerFour;
             Console.WriteLine("What's my favorite food to eat?");
-            answerFour = Console.ReadLine();
+            answerFour = Console.ReadLine().ToLower();
 
             if (answerFour == "arroz con pollo")
                 return $"That's correct {answerFour} is my favorite food!";
@@ -85,7 +85,7 @@ namespace Lab01_About_Me_Quiz
             //Logs question to and sets the users answer to the variable answerFive
             string answerFive;
             Console.WriteLine("What did I want to grow up to be?");
-            answerFive = Console.ReadLine();
+            answerFive = Console.ReadLine().ToLower();
             //Compares users input to correct answer and logs to console.
             if (answerFive == "police sketch artist")
                 return $"That's correct! {answerFive} is what I wanted to be when I grew up!";
