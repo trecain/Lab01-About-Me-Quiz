@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Lab01_About_Me_Quiz
+namespace Lab01AboutMeQuiz
 {
     class Program
     {
@@ -12,6 +12,7 @@ namespace Lab01_About_Me_Quiz
             Console.WriteLine(QuestionThree());
             Console.WriteLine(QuestionFour());
             Console.WriteLine(QuestionFive());
+            Console.ReadLine();
         }
 
         static string QuestionOne()
@@ -37,12 +38,12 @@ namespace Lab01_About_Me_Quiz
             if (answerTwo == "false")
             {
                 Console.Write("That's correct! the answer is ");
-                return true;
+                return false;
             }
             else
             {
                 Console.Write("That's incorrect! the answer is not ");
-                return false;
+                return true;
             }
         }
 
@@ -63,7 +64,7 @@ namespace Lab01_About_Me_Quiz
             else
             {
                 Console.Write("That's the incorrect number, correct number is: ");
-                return Convert.ToInt32(answerThree);
+                return 3;
             }
         }
 
