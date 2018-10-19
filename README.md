@@ -10,4 +10,4 @@ The purpose of the application is to use methods in C# to develop a console appl
 4 - Answer Question on console pop up. 
 
 ##  Views: 
-[Program Visual](/images/screenshot.PNG)
+![Program Visual](https://github.com/trecain/Lab01-About-Me-Quiz/blob/tre-Lab01/Lab01-About%20Me%20Quiz/images/screenshot.PNG)
